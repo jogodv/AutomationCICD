@@ -15,7 +15,7 @@ import assignment.testcomponents.Retry;
 
 public class ErrorValidations extends BaseTest{
 	
-	
+	//new comments are added
 	@Test(groups= {"Errorhandling"},retryAnalyzer=Retry.class)
 	public void loginErrorValidation() {
 	ProductCataloguePageObjects productCataloguePageObject= loginPageObject.login("dummyuser15678@gmail.com", "dummypasSs1");
